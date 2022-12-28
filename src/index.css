@@ -1,13 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* user can't select text */
+* {
+	user-select: none;
+  }
+  
+  /* Protect image download  */
+  /* My answer on stackOverflow https://stackoverflow.com/a/74820810*/
+  img {
+	pointer-events: none;
+  }
+  
+  /* using pseudo element for when user select any page content (if not set= user-select: none;)*/
+  ::selection {
+	color: rgb(243, 246, 249);
+	background: rgb(113, 71, 251);
+  }
+
+  @layer base {
+	html {
+	  font-family: Proxima Nova, system-ui, sans-serif;
+	}
+  }
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
 }
