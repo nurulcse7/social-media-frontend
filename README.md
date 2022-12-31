@@ -2,15 +2,15 @@
 
 #### Live link
 
-`Live website` [Click here]()
-<!-- `client-side` [Click here]() -->
-<!-- `server-side` [Click here]() -->
+`Live website` [Click here](https://socialmedia-com.web.app/)
+<!-- `client-side` [Click here](https://socialmedia-com.web.app/) -->
+<!-- `server-side` [Click here](https://social-media-backend-umber.vercel.app/) -->
 
 #### Code link 
 
 <!-- `GitHub` [Click here](https://github.com/nurulcse7/social-media-frontend) -->
 `client-side` [Click here](https://github.com/nurulcse7/social-media-frontend)
-`server-side` [Click here]()
+`server-side` [Click here](https://github.com/nurulcse7/social-media-backend)
 
 ### Description
 In this project implement for Social Media
