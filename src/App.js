@@ -1,11 +1,12 @@
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
-import Logo from './assets/Logo/logo64.png'
+import router from './Routes/Routes';
+import 'react-photo-view/dist/react-photo-view.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1> Welcome to Social Media Website</h1>
-      <img src={Logo} alt="Logo" />
+    <div>
+       <RouterProvider router={router}/>
     </div>
   );
 }
