@@ -1,6 +1,6 @@
 import { FaFacebook, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import socialLogo from '../../Assests/Logo/logo48.png';
+import socialLogo from '../../Assets/Logo/logo48.png';
 
 const Footer = () => {
   return (

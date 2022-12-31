@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FaUserCircle } from 'react-icons/fa';
 import { AuthContext } from "../../Contexts/AuthProvider/AuthProvider";
-import socialLogo from '../../Assests/Logo/logo48.png'
+import socialLogo from '../../Assets/Logo/logo48.png'
 const Navbar = () => {
     const { user, userLogOut } = useContext(AuthContext)
     const [isMenuOpen, setIsMenuOpen] = useState(false);
